@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/alecthomas/units
+export DEB_BUILD_OPTIONS := nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang

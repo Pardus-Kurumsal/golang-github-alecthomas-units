@@ -1,0 +1,18 @@
+Source: golang-github-alecthomas-units
+Section: devel
+Priority: extra
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/alecthomas/units
+
+Package: golang-github-alecthomas-units-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Conflicts: golang-units.alecthomas-dev
+Provides: golang-units.alecthomas-dev
+Breaks: golang-units.alecthomas-dev
+Description: Helpful unit multipliers and functions for Go
+ Helpful unit multipliers and functions for Go.
+ .
+ The goal of this package is to have functionality similar to the time package.

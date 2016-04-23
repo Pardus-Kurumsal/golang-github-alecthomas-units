@@ -1,0 +1,6 @@
+golang-github-alecthomas-units (0.0~git20160118) xenial; urgency=medium
+
+  [ Deepin Packages Builder ]
+  * initial release.
+
+ -- lilongyu <leaeasy@gmail.com>  Sat, 23 Apr 2016 21:43:46 +0800
